@@ -3,7 +3,6 @@ set -f
 export PASSWORD=$NEO4J_PASSWORD
 export USERNAME=$NEO4J_USERNAME
 export DRIVER=com.simba.neo4j.jdbc.Driver
-export URL=jdbc:$NEO4J_URI
 export OUTPUT_DIR=export
 
 mkdir -p $OUTPUT_DIR
