@@ -2,6 +2,6 @@
 # sqlline - Script to launch SQL shell on Unix, Linux or Mac OS
 
 BINPATH=$(dirname $0)
-exec java -cp "$BINPATH/../target/*" sqlline.SqlLine "$@"
+exec java -cp "$BINPATH/../target/*;$BINPATH/../neo4j/*" sqlline.SqlLine "$@"
 
 # End sqlline
